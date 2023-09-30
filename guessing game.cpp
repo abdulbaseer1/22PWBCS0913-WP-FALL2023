@@ -1,4 +1,5 @@
-//  MEMORY LEAKS in C and C++ .
+// REFERENCE TO MY CODE SCHOOL(YouTube).
+//  MEMORY LEAKS in C and C++ . 
 
 // betting game.
 //pointers lecture 16 
