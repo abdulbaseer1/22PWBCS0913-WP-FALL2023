@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/MY REPOS/22PWBCS0913-WP-FALL2023",
-      "program": "e:/MY REPOS/22PWBCS0913-WP-FALL2023/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrator/Documents/New folder/22PWBCS0913-WP-FALL2023",
+      "program": "c:/Users/Administrator/Documents/New folder/22PWBCS0913-WP-FALL2023/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
