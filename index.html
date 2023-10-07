@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume of mine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(230, 219, 219);
+        }
+        #header{
+            text-align: center;
+            font-style: italic;
+            font-family: cursive;
+            font-size: x-large;
+            border-style: groove;
+            height: 4cm;
+            border-color: rgb(31, 4, 4);
+            /*in order to import background image from your own pc also use url but same method as below (just specify the path)*/
+            background-image:url(../images/canvas.jpg);
+            background-size: auto;
+        }
+        #Ai{
+            align-content: center;
+            text-align: center;
+        }
+        #machine_learning{
+            align-content: center;
+            text-align: center;
+        }
+        #landing_rover{
+            align-content: center;
+            text-align: center;
+        }
+        section{
+            background-color:rgba(255, 235, 205, 0.881);
+            background-image:url(https://i.stack.imgur.com/kb0Zm.jpg);
+            padding: 20px;
+            margin: 17px;
+            border-radius: 20px;
+            box-shadow: 1px 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        #navigation{
+            border: #1F0404;
+            background-image: url(../images/canvas.jpg);
+            border-radius: 5px;
+            border: 1.5px solid rgb(39, 22, 0);
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+            word-spacing: 10px;
+        }
+
+        h1, h2, h3 {
+            color: #1F0404;
+        }
+
+        ul {
+            list-style-type:square;
+            padding: 1px;
+        }
+        /*introduces spacing b/w listed*/
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        #Introduction{
+            width: 80%;
+            text-align: left;
+        }
+        #My_picture{
+            position: relative;
+            width: fit-content;
+            text-align: center;
+            margin-right: 10cm;
+        }
+        #My_picture img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 1cm;
+        }
+        #footer{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header"> <!--inline html used here-->
+        <h1 style="color:antiquewhite;">My Portfolio</h1>
+    </header>
+    <div id="navigation">
+        <nav>
+            <button style="background-color: #1F0404; color: aliceblue;" onclick="location.href='#Home'">Home</button>
+            <button style="background-color: #1F0404; color: aliceblue;" onclick="location.href='#About'">About</button><!--syntax for hyperlink to internal content of wepage-->
+            <button style="background-color: #1F0404; color: aliceblue;" onclick="location.href='#Resume'">Resume</button>
+            <button style="background-color: #1F0404; color: aliceblue;" onclick="location.href='#Portfolio'">Portfolio</button>
+            <button style="background-color: #1F0404; color: aliceblue;" onclick="location.href='#Contact'">Contact</button>
+            
+        </nav>
+    </div>
+
+    <section id="Home">
+        <header><h1 style="text-align: center;"><u>Home</u></h1></header>
+
+        <div id="Introduction">
+            <p>Hello respected viewer and <b>WELCOME</b> to my website. The following is my Resume. I hope you find it helpful. </p>
+            <b>Name</b> : Abdul Baseer<br><br>
+        </div>
+        <div id="My_picture" >
+            <h3>My Picture</h3>
+            <img src="../images/mypic.jpg" alt="My Picture"  width="200" height="255" >
+        </div>
+        
+    </section>
+
+    <section id="About">
+        <header><h1 style="text-align: center;"><u>About Me</u></h1></header>
+        <div>
+        <h3>My Short Introduction</h3>
+        <p>
+            I am an AI specialist with more than 5 years of experience. I have worked in 2 different companies after my graduation
+            and I have participated in many different projects in my proffesional  career ,out of which the important ones have
+            been mentioned in my resume . Other than that I have done reasearch work on three different topics one of which has 
+            been published in the scientific journal "Nature". <br>
+            I am a calm minded individual and cope well to new environments. I get along very well with new people and like to keep
+            my interactions somewhat formal.  
+        </p>
+
+        <h4>Interests</h4>
+        <p>
+            My interests are centered around Artificial Intelligence and Machine Learning.
+            I am very fond of new technologies and developments in the fields of AI . 
+            I am particularly interested in high level reasearch. 
+            I like to do my own side projects and build automated machines at home .
+        </p>
+
+        <h4>Academic journey</h4>
+        <p>
+            I have held a vey good academic record at my university in my BCS program.
+            My main focus at university was the attainment of knowledge and skills together with good grades .
+            I have had little trouble figuring things out in my study and I tend to help oters academically ,if possible.
+            I attained my Masters degree from MIT university in the field of AI and My Ph.D. was at MIT in the field of Deep learning.  
+        </p>        
+        </div>
+
+        <div id="Skills">
+            <h2><u>Skills</u></h2>
+            <ul>
+                <li>AI Specialist</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Robotics</li>
+            </ul>
+            <h4>Expertise</h4>
+            <ul>
+                <li>AI</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+            </ul>
+            <h4>Academic strengths</h4>
+            <ul>
+                <li>Leadership</li>
+                <li>Ethics</li>
+                <li>Good Problem solving capabilities</li>
+                <li>reasearch oriented</li>
+                <li>Hard-Worker</li>
+            </ul>
+        </div>
+
+        <div id="Achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>paper published in scientific journal "Nature"</li>
+                <li>Reasearcher at Bell Labs</li>
+                <li>Developed new and Award-winning algorithms in the field of AI</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="Resume">
+        <header><h1 style="text-align: center;"><u>Resume</u></h1></header>
+        <h2>Educational Background</h2>
+        <div id="Ph.D.">
+            <h3>Ph.D.</h3>
+                <ul>
+                    <li>Obtained from : MIT University </li>
+                    <li>CGPA : 4/4</li>
+                    <li>Specialization : Deep Learning</li>
+                </ul>
+        </div>
+
+        <div id="Masters">
+            <h3>Masters</h3>
+            <ul>
+                <li>Obtained from : MIT University</li>
+                <li>CGPA : 4/4 </li>
+                <li>Specialization : Artificial Intelligence</li>
+            </ul>
+        </div>
+
+        <div id="Bachellors">
+            <h3>Bachellors</h3>
+            <ul>
+                <li>Obtained from : University of Engineering and Technology (Peshawar)</li>
+                <li>CGPA : 4/4</li>
+                <li>Specialization : Computer Science</li>
+            </ul>
+        </div>
+
+        <div id="Graduation_dates">
+        <h3>Graduation Dates</h3>
+        <ul>
+            <li>Ph.D. :October 2030</li> 
+            <li>Masters :October 2027</li>
+            <li>Bachellors :October 2026</li>
+        </ul>
+        </div>
+        <div id="Additional_degrees">
+        <h3>Additional Academic Achievements</h3>
+        <ul>
+            <li> Certified Artificial Intelligence Engineer — United States Artificial Intelligence Institute </li>
+            <li>Certified Artificial Intelligence Professional (CAIP)</li>
+            <li>Certified Machine Learning Engineer (CMLE) by NVIDIA</li>
+            <li>Google Cloud Professional Machine Learning Engineer</li>
+        </ul>
+    </div>
+
+
+    </section>
+
+    <section id="Portfolio">
+        <header><h1 style="text-align: center;"><u>Portfolio</u></h1></header>
+
+        <h2>Projects</h2>
+
+        <div id="Reasearch_Projects">
+            <h2><u>Reasearch projects</u></h2>
+        <div id="Project_1">
+        <ul><li><h2><u>AI</u></h2></li></ul>
+        <h4>AI Algorithm</h4>
+        <p>
+            This reasearch project was done in my Bachellors program at university. In this project 
+            I Developed an algorithm that processes data .The algorithm was able to increase efficiency by 30%.
+        </p>
+        <h4>Details</h4>
+            <ul>
+                <li>Developed At : University of Engineering and Technology (Peshawar)</li>
+                <li>Dvelopment Time : 1 year</li>
+                <li>Published For : Bachellors level reasearch</li>
+            </ul>
+        <h5>Technologies</h5>
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Decision Management system</li>
+            </ul>
+        <h5>Outcomes</h5>
+            <ul>
+                <li>increased efficiency by 30%</li>
+            </ul>
+        <div id="Ai">
+            <header>Overview of AI Pontryagin</header>
+            <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-021-27590-0/MediaObjects/41467_2021_27590_Fig1_HTML.png?as=webp " 
+            alt="Overview of AI Pontryagin" width="500">
+        </div>
+        </div>
+
+        <div id="Project_2">
+            <ul><li><h2><u>Deep Learning</u></h2></li></ul>
+            <h4>Algorithm for Efficient Data Analysis</h4>
+            <p>
+                This reasearch project was done in my Masters program at university. In this project 
+                I Developed an algorithm that analyzes data .The algorithm was able to increase efficiency by 20%.
+            </p>
+            <h4>Details</h4>
+                <ul>
+                    <li>Developed At : Masachussets Institute of Technology</li>
+                    <li>Dvelopment Time : 1 year</li>
+                    <li>Published For : Masters level reasearch</li>
+                </ul>
+            <h5>Technologies</h5>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Artificial Neural Networks</li>
+                    <li>Reinforcement Learning</li>
+                </ul>
+            <h5>Outcomes</h5>
+            <ul>
+                <li>Increased Learning speed by 20%</li>
+            </ul>
+            <div id="machine_learning">
+                <img src="../images/Machine_learning.png" alt="Machine Learning Sheet" width="500" height="250" style="border: 1cm;">
+            </div>
+            </div>
+
+            <div id="Robotics_projects">
+                <ul><li><h2>Robotics Projects</h2></li></ul>
+                    <div id="Project_3">
+                        <ul><li><h3><u>Rover Intelligence</u></h3></li></ul>
+                        <h4>Progrmmed A Robot for Nasa</h4>
+                        <p>
+                            This reasearch project was done in my Ph.D. program at university. In this project 
+                            I Developed Software for an artificially intelligent rover designed to explore a distant planet. 
+                        </p>
+                        <h4>Details</h4>
+                            <ul>
+                                <li>Developed At : Masachussets Institute of Technology</li>
+                                <li>Dvelopment Time : 3 years</li>
+                                <li>Published For : Ph.D. level reasearch</li>
+                            </ul>
+                        <h5>Technologies</h5>
+                            <ul>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>Ada</li>
+                                <li>Artificial Intelligence</li>
+                                <li>Deep Learning</li>
+                            </ul>
+                        <h5>Outcomes</h5>
+                        <ul>
+                            <li>Successfully designed the software for a rover </li>
+                            <li>Most advanced & efficient software ever built for a rover</li>
+                        </ul>
+                        <div id="landing_rover">
+                            <header >Image of Landing Rover</header>
+                            <img src="../images/pia24319_09_touchdown_2000.jpg" alt="Landing Rover Image" width="500" height="300" style="border: 1cm;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="Contact">
+        <header><h1 style="text-align: center;"><u>Contact</u></h1></header>
+        <ul style="list-style: none;">
+            <li>Name : Abdul Baseer</li>
+            <li>Email : <a target="_blank" href="https://khanabdulbaseerkhanyousafzai@gmail.com/">khanabdulbaseerkhanyousafzai@gmail.com</a></li>
+            <li>Linkedin : <a target="_blank" href="https://www.linkedin.com/in/abdul-baseer-525411254/">abdul-baseer-525411254</a></li>
+            <li>Contact number : +92-325-5675529</li>
+        </ul>
+            
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2023 Abdul Baseer. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
